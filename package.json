@@ -1,0 +1,21 @@
+{
+  "name": "da-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "NODE_ENV=development PORT=5555 nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jscodegeek/da-workshop.git"
+  },
+  "author": "Eugene Safronov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jscodegeek/da-workshop/issues"
+  },
+  "homepage": "https://github.com/jscodegeek/da-workshop#readme"
+}
