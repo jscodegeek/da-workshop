@@ -1,4 +1,22 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "fullname": "John Doe",
+      "username": "johndoe",
+      "password": "12345678"
+    }
+  ],
+  "sessions": [
+    {
+      "username": "johndoe",
+      "token": "5979d5c500403ba3dd14f95a5216ef81"
+    },
+    {
+      "username": "johndoe",
+      "token": "5d504e308ac2570ed48e23624f726e16"
+    }
+  ],
   "cars": [
     {
       "id": "917815e0-c3c5-11e8-93e2-21f6bb980d80",
@@ -7,16 +25,28 @@
       "number": "0932"
     },
     {
-      "id": "9d8d58e0-c3c5-11e8-963d-f5314a947509",
-      "title": "Vasya Toyota (grey) 6787",
-      "brand": "Toyota",
-      "number": "4353"
-    },
-    {
-      "id": "d8712ef0-c3c5-11e8-b8d7-8765814a94ca",
+      "id": "eef6e920-c3c6-11e8-8e03-c5258586be2c",
       "title": "PETYA VAZ (grey) 6787",
       "brand": "VAZ",
       "number": "5433"
+    },
+    {
+      "id": "f739c760-c3c6-11e8-979a-03c2dd82a9d8",
+      "title": "PETYA VAZ (grey) 6787",
+      "brand": "VAZ",
+      "number": "00"
+    },
+    {
+      "id": "531255f0-c3ce-11e8-8a4d-e71c9611cdd5",
+      "title": "PETYA VAZ (grey) 6787",
+      "brand": "VAZ",
+      "number": "54433"
+    },
+    {
+      "id": "7dee03f0-c3ce-11e8-a3af-d9c77303311e",
+      "title": "PETYA VAZ (grey) 6787",
+      "brand": "VAZ",
+      "number": "33"
     }
   ]
 }

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "dev": "NODE_ENV=development PORT=5555 nodemon app.js"
+    "dev": "NODE_ENV=development PORT=5555 SECRET=qwertyui1234567 TOKEN_TTL=60 nodemon app.js"
   },
   "nodemonConfig": {
     "ignore": "db.json"
@@ -24,8 +24,14 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "joi": "^13.7.0",
+    "joy": "^0.1.1",
     "lodash": "^4.17.11",
     "lowdb": "^1.0.0",
+    "md5": "^2.2.1",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0",
     "uuid": "^3.3.2"
   }
 }
