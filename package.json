@@ -8,6 +8,9 @@
     "start": "node app.js",
     "dev": "NODE_ENV=development PORT=5555 nodemon app.js"
   },
+  "nodemonConfig": {
+    "ignore": "db.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jscodegeek/da-workshop.git"
@@ -19,6 +22,10 @@
   },
   "homepage": "https://github.com/jscodegeek/da-workshop#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "lowdb": "^1.0.0",
+    "uuid": "^3.3.2"
   }
 }

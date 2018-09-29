@@ -1,0 +1,22 @@
+{
+  "cars": [
+    {
+      "id": "917815e0-c3c5-11e8-93e2-21f6bb980d80",
+      "title": "Andrey Toyota (white) 6787",
+      "brand": "Toyota",
+      "number": "0932"
+    },
+    {
+      "id": "9d8d58e0-c3c5-11e8-963d-f5314a947509",
+      "title": "Vasya Toyota (grey) 6787",
+      "brand": "Toyota",
+      "number": "4353"
+    },
+    {
+      "id": "d8712ef0-c3c5-11e8-b8d7-8765814a94ca",
+      "title": "PETYA VAZ (grey) 6787",
+      "brand": "VAZ",
+      "number": "5433"
+    }
+  ]
+}
